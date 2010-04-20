@@ -1,0 +1,13 @@
+2010/04/20 10:52:46 [error] [exception.CException] exception 'CException' with message 'SiteController contains improperly nested widget tags in its view "/home/dals/Development/www/yii/public/themes/grid/views/layouts/column1.php". A CContentDecorator widget does not have an endWidget() call.' in /home/dals/Development/www/yii/framework/web/CBaseController.php:94
+Stack trace:
+#0 /home/dals/Development/www/yii/framework/web/CController.php(689): CBaseController->renderFile('/home/dals/Deve...', Array, true)
+#1 /home/dals/Development/www/yii/public/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /home/dals/Development/www/yii/framework/web/actions/CInlineAction.php(32): SiteController->actionIndex()
+#3 /home/dals/Development/www/yii/framework/web/CController.php(300): CInlineAction->run()
+#4 /home/dals/Development/www/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /home/dals/Development/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/dals/Development/www/yii/framework/web/CWebApplication.php(320): CController->run('')
+#7 /home/dals/Development/www/yii/framework/web/CWebApplication.php(120): CWebApplication->runController('')
+#8 /home/dals/Development/www/yii/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#9 /home/dals/Development/www/yii/public/index.php(12): CApplication->run()
+#10 {main} REQUEST_URI=/
