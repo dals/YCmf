@@ -10,7 +10,6 @@ return array(
 	'name'=>'My YII',
 
         'theme'=>'grid',
-        'layout'=>'1col',
     
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -78,4 +77,8 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+
+        'modules'=>array(
+            'administration'
+        )
 );

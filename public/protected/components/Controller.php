@@ -9,7 +9,7 @@ class Controller extends CController
 	 * @var string the default layout for the controller view. Defaults to 'application.views.layouts.column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
 	 */
-	public $layout='column1';
+	public $layout='1col';
 	/**
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */
