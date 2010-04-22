@@ -16,7 +16,7 @@
 		<div class="container_16">
 			<div class="grid_16">
 				<h1 id="branding">
-					<a href="#"><?php echo CHtml::encode(Yii::app()->name); ?></a>
+					<a href="/"><?php echo CHtml::encode(Yii::app()->name); ?></a>
 				</h1>
 			</div>
 			<div class="clear"></div>
@@ -26,7 +26,7 @@
                                             array('label'=>'Home', 'url'=>array('/site/index')),
                                             array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
                                             array('label'=>'Contact', 'url'=>array('/site/contact')),
-                                            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest, 'itemOptions'=>array('class'=>'secondary')),
+                                            array('label'=>'Login', 'url'=>array('site/login'), 'visible'=>Yii::app()->user->isGuest, 'itemOptions'=>array('class'=>'secondary')),
                                             array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest, 'itemOptions'=>array('class'=>'secondary'))
                                     ),
                                     'htmlOptions'=>array('class'=>'nav main'),
